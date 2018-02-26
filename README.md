@@ -16,6 +16,10 @@ Tested in chrome and firefox
 
 Check the console for logs and info.
 
+#### Improvements
+* change textareas for divs when not editing texts
+* when a textarea contains multiple lines, drag and drops does not work properly, it is better to click outside the textarea to move the note
+
 #### Screenshot
 ![screenshot](./static/screenshot.png)
 
