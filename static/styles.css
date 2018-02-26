@@ -1,0 +1,82 @@
+body{
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin:0;
+}
+
+.boards{
+    margin:0;
+}
+button{
+    margin:2px;
+    background-color:#fff;
+    color:#000;
+}
+
+.board-column{
+    margin:5px;
+    width:250px;
+    min-height:500px;
+    float:left;
+    outline:2px solid #000;
+    background-color: #7f7f7f;
+
+}
+.column-menu{
+    background-color: #fff;
+    margin:0;
+    border-bottom:2px solid #000;
+}
+
+textarea{
+    width: 70%;
+    height:auto;
+    overflow: hidden;
+    word-wrap:break-word;
+    resize: none;
+
+    color: #000;
+    background: #fff;
+    cursor:default;
+    border: 1px solid transparent;
+
+}
+.note{
+    display:block;
+    /*border:2px solid red;*/
+}
+.note-inner{
+    margin:5px;
+    background-color: #fff;
+    border: 2px solid #000;
+    padding-bottom:10px;
+}
+.note-inner textarea{
+    width: 80%;
+
+}
+.note-inner button{
+    float:right;
+}
+
+textarea:focus{
+    border:1px solid #111;
+}
+
+button{
+    vertical-align:top;
+}
+#dropzone.board-column{
+    outline:2px dotted #000;
+}
+
+#dropzone.note:before{
+    content:"";
+    display:block;
+    height:30px;
+    outline:2px dotted #000;
+}
+#dragging .note-inner{
+    border:2px solid red;
+    opacity:.5;
+}
